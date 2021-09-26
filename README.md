@@ -90,12 +90,6 @@ optional arguments:
                         seed for data splits (train/test/val)
 ```
 
-## Examples
-
-#### Link prediction
-
-```python train.py --task lp --dataset pubmed --model LGCN --lr 0.005 --dim 64 --num-layers 2 --act relu --dropout 0.5 --weight-decay 0.0 --manifold Lorentzian --log-freq 5 --cuda 0 --c None``` 
-
 ## Reference
 If you make advantage of the HAT model in your research, please cite the following in your manuscript:
 ```
